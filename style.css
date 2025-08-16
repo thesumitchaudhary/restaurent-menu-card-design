@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
 :root {
   --white: #fff;
@@ -76,6 +76,12 @@
     );
   }
 
+  @media (witdh > 375px) {
+    .container {
+      display: none;
+    }
+  }
+
   .card {
     /* background-color: black; */
     background: linear-gradient(
@@ -113,7 +119,7 @@
   .subtitle {
     text-align: center;
     font-size: 0.9rem;
-    font-family: 'Delius',sans-serif;
+    font-family: "Delius", sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
     text-transform: lovercase;
@@ -157,15 +163,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-block: 8px;
-     font-style: italic;
-     font-weight: 700;
+    font-style: italic;
+    font-weight: 700;
   }
 
   .list {
     color: var(--left-side-back-color);
     margin: 0;
     padding: 0% 2rem;
-     list-style-type: disc; 
+    list-style-type: disc;
   }
 
   .list-items {
@@ -194,7 +200,7 @@
   .footer-para {
     color: var(--white);
     text-align: center;
-    font-family: 'Caveat',sans-serif;
+    font-family: "Caveat", sans-serif;
   }
 
   .first-line {
@@ -206,7 +212,7 @@
     font-size: 12px;
   }
 
-  .third-line{
+  .third-line {
     font-size: 12px;
   }
 }
